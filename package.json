@@ -1,6 +1,6 @@
 {
   "name": "node-nominatim2",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "wrapper around nominatim API",
   "main": "./index.js",
   "scripts": {
