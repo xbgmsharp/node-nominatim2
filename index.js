@@ -6,6 +6,7 @@ var defaults = {
   addressdetails: 1,
   format: 'json',
   limit: 1,
+  zoom: 18,
   'accept-language': 'en'
 };
 
