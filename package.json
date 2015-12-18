@@ -1,0 +1,40 @@
+{
+  "name": "node-nominatim2",
+  "version": "0.0.1",
+  "description": "wrapper around nominatim API",
+  "main": "./index.js",
+  "scripts": {
+    "test": "DEBUG= ./node_modules/.bin/mocha -R spec -t 5000"
+  },
+  "dependencies": {
+    "debug": "^0.7.4",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "nominatim",
+    "geocode",
+    "reverse geocode",
+    "OSM"
+  ],
+  "repository": {
+    "url": "git@github.com:xbgmsharp/node-nominatim2.git"
+  },
+  "homepage": "https://github.com/xbgmsharp/node-nominatim2",
+  "author": {
+    "name": "Francois Lacroix"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xbgmsharp/node-nominatim2/issues"
+  },
+  "maintainers": [
+    {
+      "name": "xbgmsharp",
+      "email": "xbgmsharp@gmail.com"
+    }
+  ]
+}
