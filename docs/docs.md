@@ -8,12 +8,15 @@
 <a name="nominatim"></a>
 # Nominatim
 Search
+
 Nominatim indexes named (or numbered) features with the OSM data set and a subset of other unnamed features (pubs, hotels, churches, etc) 
 
 Reverse Geocoding
+
 Reverse geocoding generates an address from a latitude and longitude. The optional zoom parameter specifies the level of detail required in terms of something suitable for an openlayers zoom level. 
 
 Address lookup
+
 Lookup the address of one or multiple OSM objects like node, way or relation. 
 
 <a name="nominatim-search"></a>
@@ -84,6 +87,7 @@ forecast.reverse(options, function (err, res, data) {
   data.should.have.property('lat');
   done();
 });
+```
 
 <a name="nominatim-lookup"></a>
 ## #lookup
